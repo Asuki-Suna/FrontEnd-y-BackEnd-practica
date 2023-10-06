@@ -30,4 +30,8 @@ export class LibraryPage implements OnInit {
     });
   }
 
+  update(){
+    this.getAll()
+  }
+
 }
